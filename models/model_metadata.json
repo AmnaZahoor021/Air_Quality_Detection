@@ -1,0 +1,43 @@
+{
+    "project": "AI Air Quality Detection",
+    "target": "AQI",
+    "features": [
+        "CO",
+        "NO",
+        "NO2",
+        "O3",
+        "SO2",
+        "PM2.5",
+        "PM10",
+        "NH3"
+    ],
+    "categorical_features": [
+        "City"
+    ],
+    "cities": [
+        "Faisalabad",
+        "Islamabad",
+        "Karachi",
+        "Lahore",
+        "Larkana",
+        "Multan",
+        "Peshawar",
+        "Quetta",
+        "Rawalpindi"
+    ],
+    "classes": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "best_model": "Random Forest",
+    "best_macro_f1": 0.9268359251484611,
+    "training_records": 247644,
+    "testing_records": 61916,
+    "invalid_aqi_records_excluded": 11,
+    "train_test_split": "80/20 chronological split per city",
+    "missing_value_handling": "Median imputation inside training pipelines",
+    "target_validation": "Only whole-number AQI values from 1 to 5 were retained. Invalid and out-of-range values were excluded."
+}
