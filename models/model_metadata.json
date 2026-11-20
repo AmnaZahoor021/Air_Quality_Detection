@@ -33,7 +33,7 @@
         5
     ],
     "best_model": "Random Forest",
-    "best_macro_f1": 0.9268359251484611,
+    "best_macro_f1": 0.9279191066295303,
     "training_records": 247644,
     "testing_records": 61916,
     "invalid_aqi_records_excluded": 11,
