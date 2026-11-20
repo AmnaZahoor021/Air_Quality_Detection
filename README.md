@@ -146,8 +146,6 @@ The dashboard also displays the predicted category and relevant air-quality guid
 git clone https://github.com/AmnaZahoor021/Air_Quality_Detection.git
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_LINK` with your actual GitHub repository URL.
-
 ### Step 2: Navigate to the Project Directory
 
 ```bash
